@@ -1,4 +1,4 @@
-function transporMatriz(A) {
+/*function transporMatriz(A) {
     console.log("Matriz original:");
     for (let i = 0; i < A.length; i++) {
         console.log(A[i]);
@@ -24,4 +24,35 @@ const minhaMatriz = [
     [5, 5]
 ];
 
-transporMatriz(minhaMatriz);
+transporMatriz(minhaMatriz);*/
+
+ function transporMatriz(A){
+    let matrizString = ' ';
+
+    for(let i = 0; i < A.length; i++){
+        for(let j = 0; j < A.length; j++){
+            matrizString += A[i][j] + ' ';
+        }
+        matrizString += '\n';
+    }
+    console.log(matrizString);
+
+    let matrizTranspostaString = '';
+    for(let j = 0; j < A[0].length; j++){
+        for(let i = 0; i < A.length; i++){
+            matrizTranspostaString +=A[i][j] + ' ';
+        }
+        matrizTranspostaString += '\n';
+    }
+    console.log(matrizTranspostaString);
+ 
+
+ const A = [
+    [1, 45]
+    [3, 54]
+    [5, 67]
+ ]
+}
+128000
+151200
+118800
