@@ -15,7 +15,7 @@ function verificarNumeroPrimo(n){
     return true;
 }
 
-modele.exports = {
+module.exports = {
     verificarNumeroPrimo,
 }  
 
