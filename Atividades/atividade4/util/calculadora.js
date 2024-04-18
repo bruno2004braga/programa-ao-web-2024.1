@@ -18,7 +18,7 @@ function multiplicar(a, b) {
 }
 
 function dividir(a, b) {
-=======
+
  * @param {Number} a
  * @param {Number} b
  * @return {Number}   a soma entre a e b
