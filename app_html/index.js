@@ -6,11 +6,9 @@ app.engine('html', mustacheExpress());
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
-
 app.get('/', function (req, res){
     res.render('index.html',);
 });
-
 app.get('/contato', function (req, res){
     res.render('contato.html');
 });
